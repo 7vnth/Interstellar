@@ -8,8 +8,11 @@ const config = {
   users: {
     // You can add multiple users by doing username: 'password'.
     // interstellar: "password",
-    admin: "superepicness32",
+    admin: "supersecure$321",
     guest: "super",
+    system: "totallysecure$123",
+    root: "treeroots$213",
+    biome: "biomejs$312",
   },
 };
 
