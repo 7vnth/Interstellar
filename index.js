@@ -11,6 +11,7 @@ import mime from "mime";
 import fetch from "node-fetch";
 // import { setupMasqr } from "./Masqr.js";
 import config from "./config.js";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 console.log(chalk.yellow("🚀 Starting server..."));
 
