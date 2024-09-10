@@ -177,6 +177,7 @@ const SplashT = [
   "Thanks for using the site",
   "Check out the settings page",
   "Check out the games",
+  "This is a secret message"
 ];
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
@@ -208,6 +209,7 @@ function getRandomUrl() {
     "https://dictionary.com",
     "https://cdc.gov",
     "https://youtube.com",
+    "https://thesaurus.com",
   ];
   return randomUrls[randRange(0, randomUrls.length)];
 }
